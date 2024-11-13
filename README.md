@@ -5,7 +5,10 @@ This project creates an augmented reality (AR) experience using A-Frame and AR.j
 
 ## Overview
 
-- **Libraries**: Uses **A-Frame** for 3D rendering and **AR.js** for marker-based AR, specifically barcode markers.
+- **Libraries**:
+  - **[A-Frame](https://www.npmjs.com/package/aframe)**: Used for 3D rendering and creating the AR environment.
+  - **[AR.js](https://github.com/AR-js-org/AR.js)**: A library for marker-based AR functionality, specifically using barcode markers to create floating 3D effects.
+
 - **Functionality**: Each image, located in `./slides`, is rendered on an AR marker as a 3D element. The markers create a "floating" effect when viewed through AR-enabled devices.
 
 ## Files
